@@ -1,0 +1,11 @@
+﻿﻿Using System
+
+BegClass MyClass Access(*Public)
+
+    %Open(MYFILE)
+
+    If MYFILE = *BLANKS
+        // Comment
+    EndIf
+
+EndClass
