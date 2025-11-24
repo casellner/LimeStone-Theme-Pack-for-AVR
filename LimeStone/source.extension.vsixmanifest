@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="LimeStone.07320b53-7887-4c29-a263-c5679f711556" Version="1.0" Language="en-US" Publisher="Colton S" />
-    <DisplayName>LimeStone</DisplayName>
-    <Description>Empty VSIX Project.</Description>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
-      <ProductArchitecture>amd64</ProductArchitecture>
-    </InstallationTarget>
-  </Installation>
-  <Dependencies>
-    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-  </Dependencies>
-  <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
-  </Prerequisites>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-  </Assets>
+    <Metadata>
+        <Identity Id="LimeStone.07320b53-7887-4c29-a263-c5679f711556" Version="1.0" Language="en-US" Publisher="Colton Sellner at BAI Municipal Software" />
+        <DisplayName>LimeStone Theme Pack for AVR</DisplayName>
+        <Description xml:space="preserve">This extension includes light and dark themes designed for readability when working with ASNA Visual RPG (AVR).</Description>
+        <MoreInfo>https://github.com/casellner/LimeStone-Theme-Pack-for-AVR</MoreInfo>
+        <License>LICENSE.txt</License>
+        <ReleaseNotes>Release Notes.html</ReleaseNotes>
+        <PreviewImage>LimeStone dark.png</PreviewImage>
+        <Tags>Theme, AVR</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
 </PackageManifest>
